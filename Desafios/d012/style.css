@@ -81,11 +81,12 @@ section {
     display: inline-block;
     margin-left: 0;
     padding:7px 7px 7px 30px;
-
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.493);
 }
 
 footer {
+    bo
     padding: 10px;
     text-align: center;
     background-color: black;
