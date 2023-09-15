@@ -10,8 +10,7 @@
 
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
     background-color: var(--cor1);
     height: 97vh;
 }
@@ -27,12 +26,12 @@ header {
 }
 
 main {
-    background-color: var(--cor4);
+    background-color: var(--cor0);
     margin: auto;
-    width: 50%;
-    color: var(--cor0);
+    width: 300px;
+    color: var(--cor4);
     font-weight: bolder;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
 }

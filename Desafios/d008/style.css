@@ -11,7 +11,6 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 2px;
     background-color: var(--cor1);
     height: 97vh;
 }
@@ -27,14 +26,15 @@ header {
 }
 
 main {
-    background-color: var(--cor4);
+    background-color: var(--cor0);
     margin: auto;
-    width: 50%;
-    color: var(--cor0);
+    width: 400px;
+    color: var(--cor4);
     font-weight: bolder;
     padding: 20px;
     border-radius: 25px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+    line-height: 30px;
 }
 
 .pag2 {
@@ -55,11 +55,18 @@ main {
 
 a {
     text-decoration: none;
-    color: var(--cor0);
+    color: var(--cor4);
+    
 }
 
 a:hover {
     text-decoration: underline;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    padding: 7px;
+    border-radius: 13px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
+    border: 1px solid black;
 }
 
 .azul{
@@ -67,9 +74,9 @@ a:hover {
 }
 
 .verde{
-    color: #0DD946;
+    color: #0eb43d;
 }
 
 .roxo {
-    color:#8E61ED;
+    color:#6f4cbb;
 }

@@ -11,7 +11,6 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 2px;
     background-color: var(--cor1);
     height: 97vh;
 }
@@ -28,14 +27,14 @@ header {
 
 
 section{
-    background-color: var(--cor4);
+    background-color: var(--cor0);
     margin: auto;
-    width: 50%;
-    color: var(--cor0);
+    letter-spacing: 2px;
+    line-height: 30px;
+    width: 470px;
     text-align: center;
-    font-weight: bolder;
-    padding: 20px;
-    border-radius: 25px;
+    padding: 10px;
+    border-radius: 7px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
 }
 
