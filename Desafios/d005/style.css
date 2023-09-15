@@ -1,33 +1,27 @@
 @charset "UTF-8";
 
 :root {
-    --cor0:#FCFFFC;
-    --cor1:#C1E0E0;
-    --cor2:#3D7471;
-    --cor3:#5C5A47;
-    --cor4:#013147;
-
-}
-
-* {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    --cor0:#F2E7DC;
+    --cor1:#A9D9D0;
+    --cor2:#038C7F;
+    --cor3:#027373;
+    --cor4:#10403B;
 }
 
 body {
-    background-color: var(--cor4);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
     height: 100vh;
 }
 
 header {
-    font-size: 20px;
+    background-color: black;
     color: var(--cor0);
-    padding: 20px;
     text-align: center;
-    margin: 0 -20px 0 -20px;
-    background-color: #3D7471;
-    text-shadow: 1px 1px 1px black;
-    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.411);
+    padding: 30px;
+    text-shadow: 3px 3px 4px black;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.418)
 }
 
 main {
@@ -35,43 +29,57 @@ main {
     width: 90%;
     height: 700px;
     padding: 20px;
-    border-radius: 0px 0px 10px 10px;
-    background-color: var(--cor0);
+    background-color: var(--cor1);
+    border-radius: 0px 0px 10px 0px;
 }
 
 article h2 {
+    margin-left: -19px;
+    margin-right: -19px;
     text-align: center;
-    background-color: #A68F63;
+    color: var(--cor0);
+    background-color: var(--cor2);
     padding: 7px;
-    border-radius: 7px;
+    margin-bottom: 15px;
 }
 
 article p {
+    font-size: 20px;
     text-align: justify;
 }
 
 aside {
-    margin-top: 380px;
+    margin-top: 216px;
+    width: 230px;
 }
 
 aside h2 {
+    font-size: 20px;
     text-align: center;
     margin-bottom: 0;
-    background-color: #A68F63;
-    border-radius: 10px 10px 0px 0px;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    margin-left: -20px;
+    padding: 7px;
+    border-radius: 0px 9px 0px 0px;
 }
 
 aside ul{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     padding: 20px;
-    columns: 3;
     margin-top: 0;
     font-size: 16px;
-    border-radius: 0px 0px 10px 10px;
     line-height: 20px;
-
+    margin-left: -20px;
 }
 
 li a{
+    padding: 7px;
+    color: var(--cor0);
     text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
 }

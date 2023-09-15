@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio-imagem-flexivel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Imagem flexível</h1>
-    <p>Você está vendo a imagem completa?Experimente ampliar a janela para aproveitar a nelhor experiência</p>
+    <header>
+        <h1>Imagem flexível</h1>
+        <p>Você está vendo a imagem completa?Experimente ampliar a janela para aproveitar a melhor experiência</p>
+    </header>
 
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
-        <img src="imagens/paisagem-g.png" alt="imagem flexível">
-    </picture>
+    <main>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+            <img src="imagens/paisagem-g.png" alt="imagem flexível">
+        </picture>
+    </main>
     
 </body>
 </html>
