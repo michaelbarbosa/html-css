@@ -30,11 +30,22 @@ section{
     background-color: var(--cor0);
     margin: auto;
     letter-spacing: 2px;
-    line-height: 30px;
+    line-height: 35px;
     width: 470px;
+    height: 450px;
     text-align: center;
     padding: 10px;
     border-radius: 7px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: var(--cor0);
+    text-decoration: underline;
 }
 

@@ -8,15 +8,28 @@
     font-style: normal;
 }
 
+:root {
+    --cor0:#F2E7DC;
+    --cor1:#A9D9D0;
+    --cor2:#038C7F;
+    --cor3:#027373;
+    --cor4:#10403B;
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'idroid';
+    --font3:'Bebas Neue', sans-serif;
+}
+
 body {
-    background-color:#83E1AD;
+    position: relative;
+    background-color:var(--cor1);
     margin: 0px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:var(--font1);
+    height: 100vh;
 
 }
 
 #home {
-    background-image: linear-gradient(359deg, #063d1eda 85%, #2FA866 );
+    background-image: linear-gradient(to bottom, var(--cor3), var( --cor4));
     background-attachment: fixed;
     border: 20px;
     padding: 1px;
@@ -27,9 +40,9 @@ body {
 
 #home > h1 {
     text-align: center;
+    font-size: 3em;
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: normal;
+    font-family: var(--font3);
 }
 
 #home > p {
@@ -43,6 +56,11 @@ body {
 #noticias {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.192);
     color:black;
+}
+
+nav {
+    padding: 7px;
+    background-color: var(--cor4);
 }
 
 nav > a {
@@ -73,8 +91,8 @@ a:hover {
 main {
     background-color: white;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
-    min-width: 400px;
-    max-width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
     padding: 10px;
     margin: auto;
     border-radius: 0px 0px 7px 7px;
@@ -175,3 +193,4 @@ footer#fale-conosco {
     font-size: 12px;
     box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.377);
 }
+

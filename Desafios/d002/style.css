@@ -9,10 +9,11 @@
 }
 
 body {
+    position: relative;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--cor1);
-    height: 97vh;
+    height: 100vh;
 }
 
 header {
@@ -26,11 +27,24 @@ header {
 }
 
 section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor0);
     margin: auto;
-    width: 250px;
-    text-align: center;
+    width: 450px;
+    height: 450px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: var(--cor0);
+    text-decoration: underline;
 }

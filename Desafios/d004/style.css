@@ -28,10 +28,20 @@ header {
 main {
     background-color: var(--cor0);
     margin: auto;
-    width: 300px;
+    width: 450px;
     color: var(--cor4);
     font-weight: bolder;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: var(--cor0);
+    text-decoration: underline;
 }

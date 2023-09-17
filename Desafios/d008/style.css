@@ -28,13 +28,14 @@ header {
 main {
     background-color: var(--cor0);
     margin: auto;
-    width: 400px;
+    width: 450px;
+    height: 450px;
     color: var(--cor4);
     font-weight: bolder;
     padding: 20px;
     border-radius: 25px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.452);
-    line-height: 30px;
+    line-height: 80px;
 }
 
 .pag2 {
@@ -79,4 +80,14 @@ a:hover {
 
 .roxo {
     color:#6f4cbb;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: var(--cor0);
+    text-decoration: underline;
 }

@@ -34,3 +34,13 @@ main {
     border-radius: 10px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.281);
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: var(--cor0);
+    text-decoration: underline;
+}
