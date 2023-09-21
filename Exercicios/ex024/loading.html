@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <style>
+        body {
+            height: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader {
+            width: 80px;
+            height: 80px;
+            border: 8px solid #434343;
+            border-top-color: #f7DF1E;
+            border-radius: 50%;
+            animation: girando-o-anel 1s infinite;
+        }
+
+        @keyframes girando-o-anel {
+            to {
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loader"></div>
+</body>
+
+</html>
